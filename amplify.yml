@@ -1,3 +1,5 @@
 version: 1
 applications:
-  appRoot: apps
+  appRoot: apps\app1
+  appRoot: apps\app2
+  appRoot: apps\app3
