@@ -11,5 +11,4 @@ applications:
           - '**/*'
       cache:
         paths: [] 
-  appRoot: apps/app2
-  appRoot: apps/app3
+  
