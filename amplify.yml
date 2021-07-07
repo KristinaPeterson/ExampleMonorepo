@@ -1,152 +1,39 @@
 version: 1
 applications:
   appRoot: apps/app1
-  env:
-    variables:
-        key: value
-    backend:
+  - frontend:
       phases:
-        preBuild:
-          commands:
-            
         build:
-          commands:
-           
-        postBuild:
-            commands:
-            
-    frontend:
-      phases:
-        preBuild:
-          commands:
-           
-           
-        build:
-          commands:
-            
+          commands: []
       artifacts:
+        baseDirectory: /
         files:
-            - location
-            - location
-        discard-paths: yes
-        baseDirectory: location
+          - '**/*'
       cache:
-        paths:
-            - path
-            - path
-    test:
-      phases:
-        preTest:
-          commands:
+        paths: []
             
-        test:
-          commands:
-           
-        postTest:
-          commands:
-           
-      artifacts:
-        files:
-            - location
-            - location
-        configFilePath: 
-        baseDirectory: 
+   
+       
   appRoot: apps/app2
-  env:
-    variables:
-        key: value
-    backend:
+  - frontend:
       phases:
-        preBuild:
-          commands:
-           
         build:
-          commands:
-            
-        postBuild:
-            commands:
-            
-    frontend:
-      phases:
-        preBuild:
-          commands:
-            
-           
-        build:
-          commands:
-           
+          commands: []
       artifacts:
+        baseDirectory: /
         files:
-            - location
-            - location
-        discard-paths: yes
-        baseDirectory: location
+          - '**/*'
       cache:
-        paths:
-            - path
-            - path
-    test:
-      phases:
-        preTest:
-          commands:
-           
-        test:
-          commands:
-           
-        postTest:
-          commands:
-           
-      artifacts:
-        files:
-            - location
-            - location
-        configFilePath: 
-        baseDirectory: 
+        paths: []
+        
   appRoot: apps/app3
-  env:
-    variables:
-        key: value
-    backend:
+  - frontend:
       phases:
-        preBuild:
-          commands:
-            
         build:
-          commands:
-           
-        postBuild:
-            commands:
-           
-    frontend:
-      phases:
-        preBuild:
-          commands:
-            
-        build:
-          commands:
-            
+          commands: []
       artifacts:
+        baseDirectory: /
         files:
-            - location
-            - location
-        discard-paths: yes
-        baseDirectory: 
+          - '**/*'
       cache:
-        paths:
-            - path
-            - path
-    test:
-      phases:
-        preTest:
-          commands:
-            
-        test:
-          commands:
-        postTest:
-          commands:
-      artifacts:
-        files:
-            - location
-            - location
-        configFilePath: 
-        baseDirectory: 
+        paths: []
