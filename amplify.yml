@@ -49,8 +49,8 @@ applications:
         files:
             - location
             - location
-        configFilePath: *location*
-        baseDirectory: *location*
+        configFilePath: 
+        baseDirectory: 
   appRoot: apps/app2
   env:
     variables:
@@ -130,7 +130,7 @@ applications:
             - location
             - location
         discard-paths: yes
-        baseDirectory: location
+        baseDirectory: 
       cache:
         paths:
             - path
