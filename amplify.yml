@@ -1,7 +1,7 @@
 version: 1
 applications:
-  appRoot: apps/app1
-  - frontend:
+  - appRoot: apps/app1
+    frontend:
       phases:
         build:
           commands: []
@@ -12,8 +12,8 @@ applications:
       cache:
         paths: []
        
-  appRoot: apps/app2
-  - frontend:
+  - appRoot: apps/app2
+    frontend:
       phases:
         build:
           commands: []
@@ -24,8 +24,8 @@ applications:
       cache:
         paths: []
         
-  appRoot: apps/app3
-  - frontend:
+  - appRoot: apps/app3
+    frontend:
       phases:
         build:
           commands: []
